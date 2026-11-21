@@ -13,3 +13,7 @@ nav { margin: 18px 0; font-size: 18px; }
 figure { margin: 20px 0; }
 figure img { max-width: 100%; height: auto; border: 1px solid #999; }
 figcaption { font-size: 16px; color: #444; margin-top: 6px; }
+.card img.thumb { float: right; width: 150px; max-width: 42%; height: auto; margin: 0 0 8px 14px; border: 1px solid #999; border-radius: 6px; }
+.card::after { content: ""; display: block; clear: both; }
+figure.header img { width: 100%; }
+.srcs li { margin: 9px 0; }
